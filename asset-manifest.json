@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GB-Build-Estimator/static/css/main.7e69aaa4.css",
+    "main.js": "/GB-Build-Estimator/static/js/main.41447bef.js",
+    "index.html": "/GB-Build-Estimator/index.html",
+    "main.7e69aaa4.css.map": "/GB-Build-Estimator/static/css/main.7e69aaa4.css.map",
+    "main.41447bef.js.map": "/GB-Build-Estimator/static/js/main.41447bef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e69aaa4.css",
+    "static/js/main.41447bef.js"
+  ]
+}
