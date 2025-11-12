@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GB Build Estimator
 
 A web-based Game Boy build configurator that allows users to select parts, calculate pricing, and share build configurations via shareable links.
@@ -221,3 +222,7 @@ MIT License - Feel free to use and modify for your projects.
 ## Contact
 
 For questions or issues, open an issue on GitHub or contact the repository owner.
+=======
+# GB-Build-Estimator
+Interactive estimator for Game Boy builds (beta)
+>>>>>>> 5fd38d285cceb2de55c0d15a8f184da2d8e4f826

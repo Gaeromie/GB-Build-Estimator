@@ -118,7 +118,7 @@ function App() {
       };
 
       const docRef = await addDoc(collection(db, 'builds'), buildData);
-      const shareableLink = `${window.location.origin}/build/${docRef.id}`;
+      const shareableLink = `${window.location.origin}/GB-Build-Estimator/build/${docRef.id}`;
       setGeneratedLink(shareableLink);
       setBuildId(docRef.id);
       setShowConfirmation(false);
