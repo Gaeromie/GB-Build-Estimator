@@ -26,42 +26,146 @@
         {
           "subcategory": "Soft Touch",
           "choices": [
-            { "id": "soft-black", "name": "Black" },
-            { "id": "soft-scarlet", "name": "Scarlet Red" },
-            { "id": "soft-matcha", "name": "Matcha" },
-            { "id": "soft-cherry", "name": "Cherry Blossom" },
-            { "id": "soft-white", "name": "White" }
+            {
+              "id": "soft-black",
+              "name": "Black",
+              "imageUrl": ""
+            },
+            {
+              "id": "soft-scarlet",
+              "name": "Scarlet Red",
+              "imageUrl": ""
+            },
+            {
+              "id": "soft-matcha",
+              "name": "Matcha",
+              "imageUrl": ""
+            },
+            {
+              "id": "soft-cherry",
+              "name": "Cherry Blossom",
+              "imageUrl": ""
+            },
+            {
+              "id": "soft-white",
+              "name": "White",
+              "imageUrl": ""
+            }
           ]
         },
         {
           "subcategory": "Clear",
           "choices": [
-            { "id": "clear-clear", "name": "Clear" },
-            { "id": "clear-atomic", "name": "Atomic Purple" },
-            { "id": "clear-smoke", "name": "Smoke" },
-            { "id": "clear-blue", "name": "Blue" },
-            { "id": "clear-pink", "name": "Pink" },
-            { "id": "clear-emerald", "name": "Emerald" },
-            { "id": "clear-glacier", "name": "Glacier Blue" },
-            { "id": "clear-yellow", "name": "Electric Yellow" },
-            { "id": "clear-glow", "name": "Glow in the Dark Clear" }
+            {
+              "id": "clear-clear",
+              "name": "Clear",
+              "imageUrl": ""
+            },
+            {
+              "id": "clear-atomic",
+              "name": "Atomic Purple",
+              "imageUrl": ""
+            },
+            {
+              "id": "clear-smoke",
+              "name": "Smoke",
+              "imageUrl": ""
+            },
+            {
+              "id": "clear-blue",
+              "name": "Blue",
+              "imageUrl": ""
+            },
+            {
+              "id": "clear-pink",
+              "name": "Pink",
+              "imageUrl": ""
+            },
+            {
+              "id": "clear-emerald",
+              "name": "Emerald",
+              "imageUrl": ""
+            },
+            {
+              "id": "clear-glacier",
+              "name": "Glacier Blue",
+              "imageUrl": ""
+            },
+            {
+              "id": "clear-yellow",
+              "name": "Electric Yellow",
+              "imageUrl": ""
+            },
+            {
+              "id": "clear-glow",
+              "name": "Glow in the Dark Clear",
+              "imageUrl": ""
+            }
           ]
         },
         {
           "subcategory": "Special",
           "choices": [
-            { "id": "special-chameleon-green", "name": "Chameleon Green" },
-            { "id": "special-chameleon-blue", "name": "Chameleon Blue" },
-            { "id": "special-chrome-gold", "name": "Chrome Gold" },
-            { "id": "special-pokedex", "name": "PokeDex" },
-            { "id": "special-snes", "name": "SNES" },
-            { "id": "special-nes", "name": "NES" },
-            { "id": "special-famicom", "name": "Famicom Red/Gold" },
-            { "id": "special-classic-gb", "name": "Classic GB" },
-            { "id": "special-carbon", "name": "Carbon Fiber" },
-            { "id": "special-wave-white", "name": "Great Wave/White" },
-            { "id": "special-wave-gold", "name": "Golden Great Wave/Black" },
-            { "id": "special-wood", "name": "Wood Grain" }
+            {
+              "id": "special-chameleon-green",
+              "name": "Chameleon Green",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-chameleon-blue",
+              "name": "Chameleon Blue",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-chrome-gold",
+              "name": "Chrome Gold",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-pokedex",
+              "name": "PokeDex",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-snes",
+              "name": "SNES",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-nes",
+              "name": "NES",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-famicom",
+              "name": "Famicom Red/Gold",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-classic-gb",
+              "name": "Classic GB",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-carbon",
+              "name": "Carbon Fiber",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-wave-white",
+              "name": "Great Wave/White",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-wave-gold",
+              "name": "Golden Great Wave/Black",
+              "imageUrl": ""
+            },
+            {
+              "id": "special-wood",
+              "name": "Wood Grain",
+              "imageUrl": ""
+            }
           ]
         }
       ]
@@ -71,8 +175,18 @@
       "name": "Screen",
       "required": true,
       "options": [
-        { "id": "stock", "name": "Stock (Included)", "price": 0 },
-        { "id": "ips", "name": "IPS", "price": 70 }
+        {
+          "id": "stock",
+          "name": "Stock (Included)",
+          "price": 0,
+          "imageUrl": ""
+        },
+        {
+          "id": "ips",
+          "name": "IPS",
+          "price": 70,
+          "imageUrl": ""
+        }
       ]
     },
     {
@@ -84,36 +198,116 @@
         {
           "subcategory": "Included/Stock",
           "choices": [
-            { "id": "buttons-stock", "name": "Use Shell Buttons" }
+            {
+              "id": "buttons-stock",
+              "name": "Use Shell Buttons",
+              "imageUrl": ""
+            }
           ]
         },
         {
           "subcategory": "Special",
           "choices": [
-            { "id": "buttons-special-chameleon-green", "name": "Chameleon Green" },
-            { "id": "buttons-special-chameleon-blue", "name": "Chameleon Blue" },
-            { "id": "buttons-special-chrome-gold", "name": "Chrome Gold" },
-            { "id": "buttons-special-chrome-silver", "name": "Chrome Silver" }
+            {
+              "id": "buttons-special-chameleon-green",
+              "name": "Chameleon Green",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-special-chameleon-blue",
+              "name": "Chameleon Blue",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-special-chrome-gold",
+              "name": "Chrome Gold",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-special-chrome-silver",
+              "name": "Chrome Silver",
+              "imageUrl": ""
+            }
           ]
         },
         {
           "subcategory": "Standard",
           "choices": [
-            { "id": "buttons-light-purple", "name": "Light Purple" },
-            { "id": "buttons-purple", "name": "Purple" },
-            { "id": "buttons-dmg-grape", "name": "DMG Grape (Maroon Purple)" },
-            { "id": "buttons-cherry", "name": "Cherry Blossom" },
-            { "id": "buttons-red", "name": "Red" },
-            { "id": "buttons-gray", "name": "Gray" },
-            { "id": "buttons-dark-gray", "name": "Dark Gray" },
-            { "id": "buttons-black", "name": "Black" },
-            { "id": "buttons-light-gray", "name": "Light Gray" },
-            { "id": "buttons-dark-red", "name": "Dark Red" },
-            { "id": "buttons-red-red", "name": "Red Red" },
-            { "id": "buttons-scarlet", "name": "Scarlet Red" },
-            { "id": "buttons-white", "name": "White" },
-            { "id": "buttons-star-blue", "name": "Star Blue" },
-            { "id": "buttons-yellow", "name": "Yellow" }
+            {
+              "id": "buttons-light-purple",
+              "name": "Light Purple",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-purple",
+              "name": "Purple",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-dmg-grape",
+              "name": "DMG Grape (Maroon Purple)",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-cherry",
+              "name": "Cherry Blossom",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-red",
+              "name": "Red",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-gray",
+              "name": "Gray",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-dark-gray",
+              "name": "Dark Gray",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-black",
+              "name": "Black",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-light-gray",
+              "name": "Light Gray",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-dark-red",
+              "name": "Dark Red",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-red-red",
+              "name": "Red Red",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-scarlet",
+              "name": "Scarlet Red",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-white",
+              "name": "White",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-star-blue",
+              "name": "Star Blue",
+              "imageUrl": ""
+            },
+            {
+              "id": "buttons-yellow",
+              "name": "Yellow",
+              "imageUrl": ""
+            }
           ]
         }
       ]
@@ -123,8 +317,16 @@
       "name": "Speaker Upgrade",
       "required": false,
       "options": [
-        { "id": "speaker-no", "name": "No", "price": 0 },
-        { "id": "speaker-yes", "name": "Yes", "price": 10 }
+        {
+          "id": "speaker-no",
+          "name": "No",
+          "price": 0
+        },
+        {
+          "id": "speaker-yes",
+          "name": "Yes",
+          "price": 10
+        }
       ]
     },
     {
@@ -132,8 +334,16 @@
       "name": "Battery",
       "required": true,
       "options": [
-        { "id": "battery-pickle", "name": "Pickle Power (900mAh)", "price": 15 },
-        { "id": "battery-high", "name": "High Capacity (2800mAh)", "price": 20 }
+        {
+          "id": "battery-pickle",
+          "name": "Pickle Power (900mAh)",
+          "price": 15
+        },
+        {
+          "id": "battery-high",
+          "name": "High Capacity (2800mAh)",
+          "price": 20
+        }
       ]
     },
     {
@@ -142,11 +352,31 @@
       "required": false,
       "multiSelect": true,
       "options": [
-        { "id": "led-board", "name": "LED Board", "price": 35 },
-        { "id": "speaker-amp", "name": "Speaker Amp (makes it loud)", "price": 30 },
-        { "id": "flash-cart", "name": "Flash Cart - EZ Flash + 32GB SD card (Preloaded)", "price": 85 },
-        { "id": "hinges", "name": "Hinges (will reuse original if possible)", "price": 10 },
-        { "id": "screen-lens", "name": "Replacement Screen Lens (stock)", "price": 10 }
+        {
+          "id": "led-board",
+          "name": "LED Board",
+          "price": 35
+        },
+        {
+          "id": "speaker-amp",
+          "name": "Speaker Amp (makes it loud)",
+          "price": 30
+        },
+        {
+          "id": "flash-cart",
+          "name": "Flash Cart - EZ Flash + 32GB SD card (Preloaded)",
+          "price": 85
+        },
+        {
+          "id": "hinges",
+          "name": "Hinges (will reuse original if possible)",
+          "price": 10
+        },
+        {
+          "id": "screen-lens",
+          "name": "Replacement Screen Lens (stock)",
+          "price": 10
+        }
       ]
     }
   ]

@@ -1,0 +1,153 @@
+{
+  "consoleTypes": [
+    {
+      "id": "gba-sp",
+      "name": "Game Boy Advance SP",
+      "available": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "own-console",
+      "text": "Will you be providing your own console?",
+      "type": "boolean",
+      "priceIfNo": 100
+    }
+  ],
+  "categories": [
+    {
+      "id": "shell",
+      "name": "Shell",
+      "required": true,
+      "allowMultiple": true,
+      "pricePerUnit": 30,
+      "description": "Includes buttons, membranes, and hardware",
+      "options": [
+        {
+          "subcategory": "Soft Touch",
+          "choices": [
+            { "id": "soft-black", "name": "Black" },
+            { "id": "soft-scarlet", "name": "Scarlet Red" },
+            { "id": "soft-matcha", "name": "Matcha" },
+            { "id": "soft-cherry", "name": "Cherry Blossom" },
+            { "id": "soft-white", "name": "White" }
+          ]
+        },
+        {
+          "subcategory": "Clear",
+          "choices": [
+            { "id": "clear-clear", "name": "Clear" },
+            { "id": "clear-atomic", "name": "Atomic Purple" },
+            { "id": "clear-smoke", "name": "Smoke" },
+            { "id": "clear-blue", "name": "Blue" },
+            { "id": "clear-pink", "name": "Pink" },
+            { "id": "clear-emerald", "name": "Emerald" },
+            { "id": "clear-glacier", "name": "Glacier Blue" },
+            { "id": "clear-yellow", "name": "Electric Yellow" },
+            { "id": "clear-glow", "name": "Glow in the Dark Clear" }
+          ]
+        },
+        {
+          "subcategory": "Special",
+          "choices": [
+            { "id": "special-chameleon-green", "name": "Chameleon Green" },
+            { "id": "special-chameleon-blue", "name": "Chameleon Blue" },
+            { "id": "special-chrome-gold", "name": "Chrome Gold" },
+            { "id": "special-pokedex", "name": "PokeDex" },
+            { "id": "special-snes", "name": "SNES" },
+            { "id": "special-nes", "name": "NES" },
+            { "id": "special-famicom", "name": "Famicom Red/Gold" },
+            { "id": "special-classic-gb", "name": "Classic GB" },
+            { "id": "special-carbon", "name": "Carbon Fiber" },
+            { "id": "special-wave-white", "name": "Great Wave/White" },
+            { "id": "special-wave-gold", "name": "Golden Great Wave/Black" },
+            { "id": "special-wood", "name": "Wood Grain" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screen",
+      "name": "Screen",
+      "required": true,
+      "options": [
+        { "id": "stock", "name": "Stock (Included)", "price": 0 },
+        { "id": "ips", "name": "IPS", "price": 70 }
+      ]
+    },
+    {
+      "id": "buttons",
+      "name": "Buttons (if different from shell)",
+      "required": false,
+      "pricePerUnit": 12,
+      "options": [
+        {
+          "subcategory": "Included/Stock",
+          "choices": [
+            { "id": "buttons-stock", "name": "Use Shell Buttons" }
+          ]
+        },
+        {
+          "subcategory": "Special",
+          "choices": [
+            { "id": "buttons-special-chameleon-green", "name": "Chameleon Green" },
+            { "id": "buttons-special-chameleon-blue", "name": "Chameleon Blue" },
+            { "id": "buttons-special-chrome-gold", "name": "Chrome Gold" },
+            { "id": "buttons-special-chrome-silver", "name": "Chrome Silver" }
+          ]
+        },
+        {
+          "subcategory": "Standard",
+          "choices": [
+            { "id": "buttons-light-purple", "name": "Light Purple" },
+            { "id": "buttons-purple", "name": "Purple" },
+            { "id": "buttons-dmg-grape", "name": "DMG Grape (Maroon Purple)" },
+            { "id": "buttons-cherry", "name": "Cherry Blossom" },
+            { "id": "buttons-red", "name": "Red" },
+            { "id": "buttons-gray", "name": "Gray" },
+            { "id": "buttons-dark-gray", "name": "Dark Gray" },
+            { "id": "buttons-black", "name": "Black" },
+            { "id": "buttons-light-gray", "name": "Light Gray" },
+            { "id": "buttons-dark-red", "name": "Dark Red" },
+            { "id": "buttons-red-red", "name": "Red Red" },
+            { "id": "buttons-scarlet", "name": "Scarlet Red" },
+            { "id": "buttons-white", "name": "White" },
+            { "id": "buttons-star-blue", "name": "Star Blue" },
+            { "id": "buttons-yellow", "name": "Yellow" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speaker",
+      "name": "Speaker Upgrade",
+      "required": false,
+      "options": [
+        { "id": "speaker-no", "name": "No", "price": 0 },
+        { "id": "speaker-yes", "name": "Yes", "price": 10 }
+      ]
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "required": true,
+      "options": [
+        { "id": "battery-pickle", "name": "Pickle Power (900mAh)", "price": 15 },
+        { "id": "battery-high", "name": "High Capacity (2800mAh)", "price": 20 }
+      ]
+    },
+    {
+      "id": "misc",
+      "name": "Misc Options",
+      "required": false,
+      "multiSelect": true,
+      "options": [
+        { "id": "led-board", "name": "LED Board", "price": 35 },
+        { "id": "speaker-amp", "name": "Speaker Amp (makes it loud)", "price": 30 },
+        { "id": "flash-cart", "name": "Flash Cart - EZ Flash + 32GB SD card (Preloaded)", "price": 85 },
+        { "id": "hinges", "name": "Hinges (will reuse original if possible)", "price": 10 },
+        { "id": "screen-lens", "name": "Replacement Screen Lens (stock)", "price": 10 }
+      ]
+    }
+  ]
+}
