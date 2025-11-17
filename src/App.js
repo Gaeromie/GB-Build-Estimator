@@ -50,21 +50,24 @@ function App() {
 
   // Handle routing on mount
   useEffect(() => {
-    const path = window.location.pathname;
-    const search = window.location.search;
-    const fullPath = path + search; // Combine both
+    // Get the full URL to handle GitHub Pages routing
+    const fullUrl = window.location.href;
   
-    if (fullPath.includes('admin')) {
+    console.log('Current URL:', fullUrl); // Debug log
+  
+    if (fullUrl.includes('admin')) {
+      console.log('Admin route detected');
       setCurrentView('admin');
-    } else if (fullPath.match(/build\/([^/&?]+)/)) {
-      const buildIdMatch = fullPath.match(/build\/([^/&?]+)/);
+    } else if (fullUrl.match(/build\/([^/&?#]+)/)) {
+      const buildIdMatch = fullUrl.match(/build\/([^/&?#]+)/);
       if (buildIdMatch) {
+        console.log('Build route detected:', buildIdMatch[1]);
         loadBuild(buildIdMatch[1]);
       }
-    } else if (fullPath.match(/my-builds\/([^/&?]+)/)) {
-      const userIdMatch = fullPath.match(/my-builds\/([^/&?]+)/);
+    } else if (fullUrl.match(/my-builds\/([^/&?#]+)/)) {
+      const userIdMatch = fullUrl.match(/my-builds\/([^/&?#]+)/);
       if (userIdMatch) {
-        console.log('Extracted userId from URL:', userIdMatch[1]);
+        console.log('My Builds route detected:', userIdMatch[1]);
         loadUserBuilds(userIdMatch[1]);
       }
     }
