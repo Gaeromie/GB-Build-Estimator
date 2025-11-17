@@ -72,21 +72,6 @@ function App() {
       }
     }
   }, []);
-    
-    if (path.includes('/admin')) {
-      setCurrentView('admin');
-    } else if (path.match(/\/build\/([^/]+)/)) {
-      const buildIdMatch = path.match(/\/build\/([^/]+)/);
-      if (buildIdMatch) {
-        loadBuild(buildIdMatch[1]);
-      }
-    } else if (path.match(/\/my-builds\/([^/]+)/)) {
-      const userIdMatch = path.match(/\/my-builds\/([^/]+)/);
-      if (userIdMatch) {
-        loadUserBuilds(userIdMatch[1]);
-      }
-    }
-  }, []);
 
   // Load a specific build
   const loadBuild = async (id) => {
