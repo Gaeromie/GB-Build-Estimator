@@ -51,6 +51,24 @@ function App() {
   // Handle routing on mount
   useEffect(() => {
     const path = window.location.pathname;
+    const search = window.location.search;
+    const fullPath = path + search; // Combine both
+  
+    if (fullPath.includes('admin')) {
+      setCurrentView('admin');
+    } else if (fullPath.match(/build\/([^/&?]+)/)) {
+      const buildIdMatch = fullPath.match(/build\/([^/&?]+)/);
+      if (buildIdMatch) {
+        loadBuild(buildIdMatch[1]);
+      }
+    } else if (fullPath.match(/my-builds\/([^/&?]+)/)) {
+      const userIdMatch = fullPath.match(/my-builds\/([^/&?]+)/);
+      if (userIdMatch) {
+        console.log('Extracted userId from URL:', userIdMatch[1]);
+        loadUserBuilds(userIdMatch[1]);
+      }
+    }
+  }, []);
     
     if (path.includes('/admin')) {
       setCurrentView('admin');
